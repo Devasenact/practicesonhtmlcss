@@ -1,0 +1,82 @@
+body{
+	background-color: white;
+	padding: 0px;
+	margin: 0px;
+}
+header{
+	background-color: black;
+	height: 70px;
+}
+#logo{
+	position: relative;
+	float:left;
+	z-index: 9;
+}
+logo-dark{
+	height: 20px;
+	width: 20px;
+}
+.logodemo{
+	height: 47px;
+    width: 200px;
+}
+section {
+   
+    background-repeat: repeat-y; /* Add this line */
+
+}
+#intro-section{
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSBHwDv9NOMKFTvgbss9RxwtrsiqtTksqxqKXMl4eUUuhPN5H2);
+    background-position: 56% -241px;
+    background-repeat: repeat; 
+   
+
+}
+
+#hero .profile-img {
+    width: 300px;
+   
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+
+
+
+#leftnav{
+	float: left;
+
+}
+
+ul li 
+{
+	list-style-type: none;
+}
+#rightnav{
+	float: right;
+}
+#rightnav li{
+
+	display: inline-block;
+	margin: 10px;
+}
+#hero {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)),url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkG3AJLlbOM4uU0udVREKBrX9CNZXGyRVNYbnX54ZTBoUHRNzw"); 
+     background-color: yellow; 
+     border:3px darkblue;
+}
+.bg-transparent-6-dark{
+	background-color: rgba(0,0,0,0.6);
+	!important;
+}
+
+
+footer{
+	clear: both;
+	background-color: black;
+	text-align: center;
+	margin-top: 50px;
+	padding: 10px;
+	color: white;
+}
